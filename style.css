@@ -1,0 +1,30 @@
+/* Imports CSS*/
+@import url(css/header.css);
+@import url(css/cabecalho.css);
+@import url(css/metricas.css);
+@import url(css/vagas.css);
+@import url(css/depoimentos.css);
+@import url(css/footer.css);
+
+/* Imports fonts */
+
+/* Variáveis CSS */
+:root {
+    --vermelho-principal: #8E2424;
+    --cor-de-fundo: #FFFFFF;
+    --cor-de-fundo-footer: #F9FAFB;
+    --cor-de-fundo-depoimento: #C31919; /* 3% de opacidade */
+    --cor-borda: #EAECF0;
+    --cinza-titulos: #101828;
+    --cinza-paragrafos: #667085;
+}
+
+html {
+    font-size: 62.5%; /* 62.5% de 16px = 10px */
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1480px;
+    margin: 0 auto;
+}
