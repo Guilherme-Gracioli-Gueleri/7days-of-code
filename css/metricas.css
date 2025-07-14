@@ -1,0 +1,40 @@
+.metricas {
+    padding-bottom: 9.6rem;
+}
+
+.metricas > .container {
+    display: flex;
+    align-items: center;
+}
+
+.metricas > .container > .content {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.metrica-um > .box-metrica h2 {
+    font-family: var(--fonte-principal);
+    font-size: 6.0rem;
+    font-weight: 600;
+    color: var(--vermelho-principal);
+    margin-bottom: 1.2rem;
+}
+
+.metrica-um > .box-metrica > div {
+    max-width: 80%;
+}
+
+.metrica-um > .box-metrica > div h3 {
+    font-family: var(--fonte-principal);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--cinza-titulos);
+    margin-bottom: 0.8rem;
+}
+
+.metrica-um > .box-metrica > div p {
+    font-family: var(--fonte-principal);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--cinza-paragrafos);
+}

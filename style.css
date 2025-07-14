@@ -7,24 +7,40 @@
 @import url(css/footer.css);
 
 /* Imports fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* Variáveis CSS */
 :root {
     --vermelho-principal: #8E2424;
-    --cor-de-fundo: #FFFFFF;
+    --branco-principal: #FFFFFF;
     --cor-de-fundo-footer: #F9FAFB;
     --cor-de-fundo-depoimento: #C31919; /* 3% de opacidade */
     --cor-borda: #EAECF0;
     --cinza-titulos: #101828;
     --cinza-paragrafos: #667085;
-}
-
-html {
-    font-size: 62.5%; /* 62.5% de 16px = 10px */
+    --fonte-principal: "Inter", sans-serif;
 }
 
 .wrapper {
-    width: 90%;
+    width: 100%;
     max-width: 1480px;
     margin: 0 auto;
 }
+
+/* Estilos Globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 62.5% de 16px = 10px */
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--branco-principal);
+}
+
+

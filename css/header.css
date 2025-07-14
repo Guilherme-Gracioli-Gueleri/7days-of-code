@@ -1,14 +1,48 @@
+header {
+  padding: 1.8rem 0;
+}
+
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .links > ul {
-    display: flex;
-    gap: 3.2rem;
+  display: flex;
+  gap: 3.2rem;
+  list-style-type: none;
 }
 
 .links > ul > li > a {
-    
+  font-family: var(--fonte-principal);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--cinza-paragrafos);
+}
+
+.buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.buttons > .button {
+  padding: 1rem 1.8rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-family: var(--fonte-principal);
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button[data-type="entrar"] {
+  background-color: transparent;
+  color: var(--cinza-paragrafos);
+}
+
+.button[data-type="cadastrar"] {
+  background-color: var(--vermelho-principal);
+  color: var(--branco-principal);
 }
